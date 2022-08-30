@@ -1,5 +1,5 @@
 import {useState} from 'react'
-
+import './TodoForm.css'
 
 function TodoForm ({onAdd}){
     const[value , setValue] = useState('')
@@ -16,7 +16,7 @@ function TodoForm ({onAdd}){
             <input type = "text" value = {value} onChange={(e) => {
                 setValue(e.target.value)
             }}/>
-            <button>Add</button>
+            <button className='addbtn'>Add</button>
         </form>
     )
 }

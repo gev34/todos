@@ -1,7 +1,10 @@
+import'./TodoList.css';
+
+
 
 function TodoList ({todo , onDelete }){
     return (
-        <div>
+        <div >
             <label>
                 <input type = "checkbox" />
                 

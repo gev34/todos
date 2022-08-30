@@ -1,0 +1,31 @@
+.list{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+.list label{
+    display: flex;
+    align-items: center;
+}
+.list input[type = 'checkbox']{
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.list button{
+    position: absolute;
+    right:50px;
+    width: 25px;
+    height: 25px;
+    background: none;
+    background-color: rgb(175, 146, 102);
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.list button:hover{
+    background-color: wheat;
+}

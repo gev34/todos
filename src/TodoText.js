@@ -1,8 +1,9 @@
 import TodoList from "./TodoList";
 
+
 function TodoText({todos , onDelete }){
     return (
-        <div >
+        <div className="list">
             {
                 todos.map((todo) => {
                     return (
